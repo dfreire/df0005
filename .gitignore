@@ -39,3 +39,4 @@ tmp
 
 # Misc files
 *.log
+rethinkdb_data/
