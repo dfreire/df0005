@@ -5,6 +5,7 @@ interface Language {
 interface TranslationSheet {
     id: string,
     name: string,
+    emails: string[],
 }
 
 interface TranslationItem {
