@@ -1,19 +1,6 @@
 {
   "name": "translationsheets",
-  "version": "0.1.9",
-  "description": "Universal TypeScript 2.0 Pre starter kit for Angular 2 and React",
-  "main": "src/index.ts",
-  "directories": {
-    "src": "src/"
-  },
-  "files": [
-    "CHANGELOG.md",
-    "CLA.md",
-    "CONTRIBUTING.md",
-    "LICENSE.md",
-    "src",
-    "dist"
-  ],
+  "version": "0.0.1",
   "scripts": {
     "clean": "rimraf coverage/ dist/",
     "clean:dist": "rimraf dist/",
@@ -39,47 +26,6 @@
     "dependencies:check": "ncu",
     "dependencies:upgrade": "ncu -u"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trixler/translationsheets.git"
-  },
-  "author": {
-    "name": "KFlash",
-    "email": "kflash123@gmail.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trixler/translationsheets/issues"
-  },
-  "keywords": [
-    "vscode",
-    "typescript",
-    "boilerplate",
-    "project",
-    "skeleton",
-    "debug",
-    "intellisense",
-    "angular2",
-    "angular",
-    "react",
-    "reactjs",
-    "workflow",
-    "microsoft",
-    "universal",
-    "isomorphic",
-    "babel",
-    "webpack",
-    "karma",
-    "compile",
-    "transpile",
-    "mocha",
-    "coverage",
-    "async",
-    "await",
-    "mocha",
-    "chai"
-  ],
-  "homepage": "https://github.com/trixler/translationsheets#readme",
   "dependencies": {
     "whatwg-fetch": "^1.0.0",
     "es6-promise": "^3.1.2"
