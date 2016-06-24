@@ -2,21 +2,21 @@ interface Language {
     id: string,
 }
 
-interface TranslationSheet {
+interface Board {
     id: string,
     name: string,
     emails: string[],
 }
 
-interface TranslationCard {
+interface Card {
     id: string,
-    sheetId: string,
+    boardId: string,
 }
 
-interface TranslationAtom {
+interface Translation {
     id: string,
     cardId: string,
     languageId: string,
     text: string,
-    context: string,
+    notes: string,
 }
