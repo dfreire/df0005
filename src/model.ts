@@ -8,14 +8,14 @@ interface TranslationSheet {
     emails: string[],
 }
 
-interface TranslationItem {
+interface TranslationCard {
     id: string,
     sheetId: string,
 }
 
 interface TranslationAtom {
     id: string,
-    itemId: string,
+    cardId: string,
     languageId: string,
     text: string,
     context: string,
