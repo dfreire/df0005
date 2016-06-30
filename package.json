@@ -1,6 +1,10 @@
 {
   "name": "translationsheets",
   "version": "0.0.1",
+  "author": {
+    "name": "Dário Freire"
+  },
+  "license": "MIT",
   "scripts": {
     "clean": "rimraf coverage/ dist/",
     "clean:dist": "rimraf dist/",
@@ -24,7 +28,8 @@
     "browser": "webpack-dev-server --quiet --config ./config/webpack/webpack.browser.config.js",
     "postversion": "git push && git push --tags",
     "dependencies:check": "ncu",
-    "dependencies:upgrade": "ncu -u"
+    "dependencies:upgrade": "ncu -u",
+    "hz:dev": "hz serve --dev"
   },
   "dependencies": {
     "whatwg-fetch": "^1.0.0",
